@@ -1,0 +1,122 @@
+import { Projects } from "../../../project/all";
+import Image from "next/image";
+
+const images = [
+  "new_inc_demo_00.jpg",
+  "new_inc_demo_01.jpg",
+  "new_inc_demo_02.jpg",
+  "new_inc_demo_03.jpg",
+  "new_inc_demo_04.jpg",
+  "new_inc_demo_05.jpg",
+  "new_museum_activation_00.jpg",
+  "new_museum_activation_01.jpg",
+  "new_museum_activation_02.jpg",
+  "new_museum_activation_03.jpg",
+  "new_museum_activation_04.jpg",
+  "new_museum_activation_05.jpg",
+  "sfpc_atc_2016.png",
+  "sfpc_seven_year.jpeg",
+];
+
+export default function ATC() {
+  return (
+    <div>
+      <h1>Air traffic control</h1>
+      {/* {images.map((img, index) => {
+        return (
+          <Image
+            src={`/images/atc/${img}`}
+            alt=""
+            width={500}
+            height={500}
+            priority
+          />
+        );
+      })} */}
+      <Image
+        src={`/images/atc/new_inc_demo_00.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_inc_demo_01.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_inc_demo_02.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_inc_demo_03.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_inc_demo_04.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_inc_demo_05.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_00.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_01.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_02.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_03.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_04.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+      <Image
+        src={`/images/atc/new_museum_activation_05.jpg`}
+        alt=""
+        width={500}
+        height={500}
+        priority
+      />
+    </div>
+  );
+}

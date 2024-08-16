@@ -29,13 +29,13 @@ export default function RootLayout({
               <Link href="/work/">Work</Link>
             </p>
             <p>
+              <Link href="/performance/">Performance</Link>
+            </p>
+            <p>
               <Link href="/workshops/">Workshops</Link>
             </p>
             <p>
               <Link href="/archive/">Archive</Link>
-            </p>
-            <p>
-              <Link href="/contact/">Contact</Link>
             </p>
           </div>
         </header>
